@@ -1,0 +1,50 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: flex-start; 
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  position: absolute;
+  left: 650px; 
+  bottom: 650px;
+}
+
+.book-container {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 200px;
+}
+
+.book-container:hover {
+  background-color: #f0f0f0;
+}
+
+.book-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
